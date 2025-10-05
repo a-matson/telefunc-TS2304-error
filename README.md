@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # telefunc-TS2304-error
 =======
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
@@ -22,7 +22,7 @@ Get following:
  ✓ Linting and checking validity of types    
    Creating an optimized production build ...
  ✓ shield() generated for the telefunctions onSavePost() (src/pages/api/test.telefunc.ts), onDeletePost() (src/pages/api/test.telefunc.ts), onGetBlogPosts() (src/pages/api/test.telefunc.ts), and onUpvotePost() (src/pages/api/test.telefunc.ts)
-TypeScript project /Users/andre/Documents/Work/telefunc-next-error/my-app/tsconfig.json errors:
+TypeScript project /tsconfig.json errors:
 src/pages/api/__telefunc_shieldGen_test.telefunc.ts:4:53 - error TS2344: Type 'readonly ["authors", "author_name", "author_url", "author_photo", "date", "read_time"]' does not satisfy the constraint '(...args: any) => any'.
   Type 'readonly ["authors", "author_name", "author_url", "author_photo", "date", "read_time"]' provides no match for the signature '(...args: any): any'.
 
@@ -72,4 +72,3 @@ Route (pages)                                Size  First Load JS
 ○  (Static)   prerendered as static content
 ƒ  (Dynamic)  server-rendered on demand
 ```
->>>>>>> master

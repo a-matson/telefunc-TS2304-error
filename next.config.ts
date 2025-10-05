@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-import withTelefunc from 'telefunc/next';
+import withTelefunc from "telefunc/next";
 
 const nextConfig: NextConfig = {
   /* config options here */
